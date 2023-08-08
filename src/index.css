@@ -28,6 +28,10 @@ button {
   background-color: hsl(231, 69%, 60%);
 }
 
+.btn-red {
+  background-color: hsl(0, 94%, 66%);
+}
+
 .bg {
   position: absolute;
   right: -32px;
