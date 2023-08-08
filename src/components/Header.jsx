@@ -6,9 +6,9 @@ import twitter from "../images/icon-twitter.svg";
 export default function Header() {
   return (
     <>
-      <header className="flex items-center justify-between p-8">
+      <header className="flex items-center justify-between p-8 max-w-7xl mx-auto">
         <div>
-          <img src={logo} alt="" />
+          <img src={logo} alt="Bookmark" />
         </div>
 
         <nav className="hidden">
