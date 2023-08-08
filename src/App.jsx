@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import CTA from "./components/CTA";
 import Download from "./components/Download";
 import Header from "./components/Header";
@@ -12,6 +13,7 @@ function App() {
       <Tabs />
       <Download />
       <CTA />
+      <Footer />
     </>
   );
 }
