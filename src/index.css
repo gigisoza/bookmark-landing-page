@@ -20,18 +20,33 @@ p {
   line-height: 1.8;
 }
 
+button {
+  @apply text-slate-600;
+}
+
 .btn-blue {
   background-color: hsl(231, 69%, 60%);
 }
 
 .bg {
   position: absolute;
-  right: -40%;
+  right: -32px;
   bottom: 0;
-  height: 300px;
-  width: 120%;
+  height: 250px;
+  width: 100%;
   background-color: hsl(231, 69%, 60%);
   border-radius: 200px 0 0 200px;
+  z-index: -1;
+}
+
+.bg-left {
+  position: absolute;
+  right: -32px;
+  bottom: -50px;
+  height: 250px;
+  width: 100%;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 0 200px 200px 0;
   z-index: -1;
 }
 
@@ -41,5 +56,20 @@ p {
   }
   body {
     overflow-x: hidden;
+  }
+
+  .bg,
+  .bg-left {
+    height: 300px;
+  }
+
+  .bg {
+    right: -40%;
+    width: 120%;
+  }
+
+  .bg-left {
+    left: -40%;
+    width: 120%;
   }
 }
