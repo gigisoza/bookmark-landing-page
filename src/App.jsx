@@ -4,6 +4,7 @@ import Download from "./components/Download";
 import Header from "./components/Header";
 import Showcase from "./components/Showcase";
 import Tabs from "./components/Tabs";
+import FAQs from "./components/FAQs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Showcase />
       <Tabs />
       <Download />
+      <FAQs />
       <CTA />
       <Footer />
     </>
